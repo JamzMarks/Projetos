@@ -36,5 +36,5 @@ const Carro = {
     },
 
 }
-
+console.log(Carro)
 console.log(Carro.precoSeguro())
