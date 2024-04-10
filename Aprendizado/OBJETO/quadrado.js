@@ -33,6 +33,6 @@ class Poligono {
  
  }
  
- const a = new Quadrado(30, 20);
+ const a = new Quadrado(30, 30);
 a.getArea()
  Quadrado.getNameHeranca();
