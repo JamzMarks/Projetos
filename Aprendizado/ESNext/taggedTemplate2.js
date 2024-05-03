@@ -9,6 +9,6 @@ function real(partes, ...valores){
     return resultado.join('')
 }
 
-const preco = 29.99
+const preco = 29.98
 const precoParcela = 11
 console.log(real`1x de ${preco} ou 3x de ${precoParcela}.`)
