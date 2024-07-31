@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos\\C#\\PrimeiroProjeto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D50BC394-9FA6-486E-BDEA-7B631C754A64}|PrimeiroProjeto\\PrimeiroProjeto.csproj|d:\\projetos\\c#\\primeiroprojeto\\primeiroprojeto\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50BC394-9FA6-486E-BDEA-7B631C754A64}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50BC394-9FA6-486E-BDEA-7B631C754A64}|PrimeiroProjeto\\PrimeiroProjeto.csproj|d:\\projetos\\c#\\primeiroprojeto\\primeiroprojeto\\banda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50BC394-9FA6-486E-BDEA-7B631C754A64}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\banda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50BC394-9FA6-486E-BDEA-7B631C754A64}|PrimeiroProjeto\\PrimeiroProjeto.csproj|d:\\projetos\\c#\\primeiroprojeto\\primeiroprojeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50BC394-9FA6-486E-BDEA-7B631C754A64}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50BC394-9FA6-486E-BDEA-7B631C754A64}|PrimeiroProjeto\\PrimeiroProjeto.csproj|d:\\projetos\\c#\\primeiroprojeto\\primeiroprojeto\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50BC394-9FA6-486E-BDEA-7B631C754A64}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Banda.cs",
+              "DocumentMoniker": "D:\\Projetos\\C#\\PrimeiroProjeto\\PrimeiroProjeto\\Banda.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Banda.cs",
+              "ToolTip": "D:\\Projetos\\C#\\PrimeiroProjeto\\PrimeiroProjeto\\Banda.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\Banda.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T23:05:16.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Album.cs",
+              "DocumentMoniker": "D:\\Projetos\\C#\\PrimeiroProjeto\\PrimeiroProjeto\\Album.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Album.cs",
+              "ToolTip": "D:\\Projetos\\C#\\PrimeiroProjeto\\PrimeiroProjeto\\Album.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\Album.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T22:38:41.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Musica.cs",
+              "DocumentMoniker": "D:\\Projetos\\C#\\PrimeiroProjeto\\PrimeiroProjeto\\Musica.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Musica.cs",
+              "ToolTip": "D:\\Projetos\\C#\\PrimeiroProjeto\\PrimeiroProjeto\\Musica.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\Musica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T23:11:49.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos\\C#\\PrimeiroProjeto\\PrimeiroProjeto\\Program.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Program.cs",
+              "ToolTip": "D:\\Projetos\\C#\\PrimeiroProjeto\\PrimeiroProjeto\\Program.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T18:34:12.795Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
