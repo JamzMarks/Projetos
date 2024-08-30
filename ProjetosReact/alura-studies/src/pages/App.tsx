@@ -9,8 +9,27 @@ function App() {
   const [tarefas, setTarefas] = useState<ITarefa[]>([]);
   const [selecionado, setSelecionado] = useState<ITarefa>();
 
-  function selecionaTarefa(tarefaSelecionado: ITarefa){
-    setSelecionado(tarefaSelecionado);
+  function selecionaTarefa(tarefaSelecionada: ITarefa){
+    setSelecionado(tarefaSelecionada);
+    setTarefas(tarefasAnteriores => tarefasAnteriores.map(tarefa =>({
+      ...tarefa,
+      selecionado: tarefa.id === tarefaSelecionada.id? true: false
+    })))
+  }
+  function finalizarTarefa(){
+    if(selecionado){
+      setSelecionado(undefined);
+      setTarefas(tarefasAnteriores => tarefasAnteriores.map(tarefa => {
+        if(tarefa.id === selecionado.id){
+          return{
+            ...tarefa,
+            selecionado: false,
+            completado: true
+          }
+        }
+        return tarefa
+      }))
+    }
   }
   return (
     <div className={style.AppStyle}>
@@ -19,7 +38,10 @@ function App() {
       tarefas={tarefas}
       selecionaTarefa={selecionaTarefa}
       ></Lista>
-      <Cronometro></Cronometro>
+      <Cronometro 
+      selecionado={selecionado}
+      finalizarTarefa={finalizarTarefa}
+      ></Cronometro>
     </div>
   );
 }

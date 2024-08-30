@@ -1,20 +1,21 @@
 import React from "react";
 import style from './Botao.module.scss';
 
-type BotaoProps = {
-    texto?: string;
+interface Props {
     type?: "button" | "submit" | "reset"; // Correct type declaration for the 'type' prop
-};
+    onClick?: () => void;
+    children?: React.ReactNode;
+}
 
-class Botao extends React.Component<React.PropsWithChildren<BotaoProps>> {
-    render() {
-        const { type = "button", children } = this.props; // Destructure 'children' for better clarity
-        return (
-            <button type={type} className={style.botao}>
+function Botao({onClick, type = "button", children}: Props){
+    return (
+        <button 
+            onClick={onClick} 
+            type={type} 
+            className={style.botao}>
                 {children}
-            </button>
-        );
-    }
+        </button>
+    );
 }
 
 export default Botao;
