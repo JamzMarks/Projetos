@@ -4,7 +4,7 @@ import { IPaginacao } from '../../interfaces/IPaginacao';
 import IRestaurante from '../../interfaces/IRestaurante';
 import style from './ListaRestaurantes.module.scss';
 import Restaurante from './Restaurante';
-import { TextField } from '@mui/material';
+import { Button, TextField } from '@mui/material';
 
 // esses são os possíveis parâmetros que podemos enviar para a API
 interface IParametrosBusca {
@@ -62,7 +62,7 @@ const ListaRestaurantes = () => {
         id="standard-basic" 
         label="Restaurante" 
         variant="standard" />
-      <button type='submit'>buscar</button>
+       <Button type='submit' variant="outlined">Buscar</Button>
     </form>
     {restaurantes?.map(item => <Restaurante restaurante={item} key={item.id} />)}
     {<button onClick={() => carregarDados(paginaAnterior)} disabled={!paginaAnterior}>
