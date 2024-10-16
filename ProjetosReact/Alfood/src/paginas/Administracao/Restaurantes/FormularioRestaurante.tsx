@@ -1,7 +1,8 @@
-import { Box, Button, TextField, Typography } from "@mui/material"
+import { Box, Button, TextField, Typography} from "@mui/material"
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import http from "../../HTTP"
+import http from "../../../HTTP"
+
 
 const FormularioRestaurante = () => {
 
@@ -36,27 +37,29 @@ const FormularioRestaurante = () => {
 
   }
   return (
-    <Box sx={{display: 'flex', flexDirection:'column', alignItems:'center'}}>
-      <Typography component="h1" variant="h6">Formulario de Restaurantes</Typography>
-      <Box component="form" onSubmit={aoSubmeterForm}>
-        <TextField
-          value={nomeRestaurante}
-          onChange={evento => setNomeRestaurante(evento.target.value)}
-          id="standard-basic"
-          label="Nome do Restaurante"
-          variant="standard"
-          fullWidth
-          required
-        />
-        <Button
-          type='submit'
-          variant="outlined"
-          fullWidth
-          sx={{marginTop: 1}}>
-          Outlined
-        </Button>
+    <>
+      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexGrow: 1 }}>
+        <Typography component="h1" variant="h6">Formulario de Restaurantes</Typography>
+        <Box component="form" sx={{ width: '80%' }} onSubmit={aoSubmeterForm}>
+          <TextField
+            value={nomeRestaurante}
+            onChange={evento => setNomeRestaurante(evento.target.value)}
+            id="standard-basic"
+            label="Nome do Restaurante"
+            variant="standard"
+            fullWidth
+            required
+          />
+          <Button
+            type='submit'
+            variant="outlined"
+            fullWidth
+            sx={{ marginTop: 1 }}>
+            Outlined
+          </Button>
+        </Box>
       </Box>
-    </Box>
+    </>
 
   )
 }
